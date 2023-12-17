@@ -1,0 +1,122 @@
+@import url("./font.css");
+
+header {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Optional padding for spacing */
+}
+
+.logo {
+    float: right;
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+    order: 1;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+ul.a {
+    list-style-type: none;
+}
+
+#navigation {
+    display: flex;
+    width: 1300px;
+    gap: 20px;
+    margin-left: 740px;
+
+}
+#navigation a{
+    font-family: 'Bebas Neue';
+}
+
+.active a {
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.menuItem:hover {
+    background-color: #fb7e14;
+}
+
+.menuItem{
+    padding: 2px 5px;
+}
+
+.box {
+    display: inline-block;
+    flex: 1;
+    background-color: #ffffff;
+    height: 300px; 
+    border: 1px solid;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+article {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+article:nth-child(1) .box {
+    margin-left: 400px;
+}
+article:nth-child(2) .box {
+    margin-right: 400px;
+}
+
+article:nth-child(1) img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.container article img {
+    height: 150px;
+    float: right;
+}
+
+.container article:nth-child(2) img {
+    float: left;
+}
+
+.textBox {
+    display: inline-block;
+    line-height: 20px;
+}
+
+.textBox p {
+    display: inline-block;
+    font-family: 'Bebas Neue';
+}
+
+.clearfix p {
+    font-family: 'Caveat', sans-serif;
+    line-height: 20px;
+}
+
+body{
+    background-color: #151515;
+    border: 2px solid #fb7e14;
+    padding: 20px;
+    box-sizing: border-box;
+}
