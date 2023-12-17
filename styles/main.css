@@ -119,4 +119,5 @@ body{
     border: 2px solid #fb7e14;
     padding: 20px;
     box-sizing: border-box;
+    height: 100vh;
 }
